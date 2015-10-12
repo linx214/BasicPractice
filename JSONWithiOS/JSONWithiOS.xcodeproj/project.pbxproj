@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C520C34C1BCC37CF00AE9461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C520C34B1BCC37CF00AE9461 /* main.m */; };
+		C520C34F1BCC37CF00AE9461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C520C34E1BCC37CF00AE9461 /* AppDelegate.m */; };
+		C520C3521BCC37CF00AE9461 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C520C3511BCC37CF00AE9461 /* ViewController.m */; };
+		C520C3551BCC37CF00AE9461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C520C3531BCC37CF00AE9461 /* Main.storyboard */; };
+		C520C3571BCC37CF00AE9461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C520C3561BCC37CF00AE9461 /* Assets.xcassets */; };
+		C520C35A1BCC37CF00AE9461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C520C3581BCC37CF00AE9461 /* LaunchScreen.storyboard */; };
+		C520C3651BCC37CF00AE9461 /* JSONWithiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C520C3641BCC37CF00AE9461 /* JSONWithiOSTests.m */; };
+		C520C3701BCC37CF00AE9461 /* JSONWithiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C520C36F1BCC37CF00AE9461 /* JSONWithiOSUITests.m */; };
+		C520C37E1BCC37F300AE9461 /* jsonFormat.json in Resources */ = {isa = PBXBuildFile; fileRef = C520C37D1BCC37F300AE9461 /* jsonFormat.json */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C520C3611BCC37CF00AE9461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C520C33F1BCC37CF00AE9461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C520C3461BCC37CF00AE9461;
+			remoteInfo = JSONWithiOS;
+		};
+		C520C36C1BCC37CF00AE9461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C520C33F1BCC37CF00AE9461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C520C3461BCC37CF00AE9461;
+			remoteInfo = JSONWithiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C520C3471BCC37CF00AE9461 /* JSONWithiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONWithiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C520C34B1BCC37CF00AE9461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C520C34D1BCC37CF00AE9461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C520C34E1BCC37CF00AE9461 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C520C3501BCC37CF00AE9461 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C520C3511BCC37CF00AE9461 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C520C3541BCC37CF00AE9461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C520C3561BCC37CF00AE9461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C520C3591BCC37CF00AE9461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C520C35B1BCC37CF00AE9461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C520C3601BCC37CF00AE9461 /* JSONWithiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONWithiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C520C3641BCC37CF00AE9461 /* JSONWithiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONWithiOSTests.m; sourceTree = "<group>"; };
+		C520C3661BCC37CF00AE9461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C520C36B1BCC37CF00AE9461 /* JSONWithiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONWithiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C520C36F1BCC37CF00AE9461 /* JSONWithiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONWithiOSUITests.m; sourceTree = "<group>"; };
+		C520C3711BCC37CF00AE9461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C520C37D1BCC37F300AE9461 /* jsonFormat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jsonFormat.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C520C3441BCC37CF00AE9461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C520C35D1BCC37CF00AE9461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C520C3681BCC37CF00AE9461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C520C33E1BCC37CF00AE9461 = {
+			isa = PBXGroup;
+			children = (
+				C520C3491BCC37CF00AE9461 /* JSONWithiOS */,
+				C520C3631BCC37CF00AE9461 /* JSONWithiOSTests */,
+				C520C36E1BCC37CF00AE9461 /* JSONWithiOSUITests */,
+				C520C3481BCC37CF00AE9461 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C520C3481BCC37CF00AE9461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C520C3471BCC37CF00AE9461 /* JSONWithiOS.app */,
+				C520C3601BCC37CF00AE9461 /* JSONWithiOSTests.xctest */,
+				C520C36B1BCC37CF00AE9461 /* JSONWithiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C520C3491BCC37CF00AE9461 /* JSONWithiOS */ = {
+			isa = PBXGroup;
+			children = (
+				C520C37D1BCC37F300AE9461 /* jsonFormat.json */,
+				C520C34D1BCC37CF00AE9461 /* AppDelegate.h */,
+				C520C34E1BCC37CF00AE9461 /* AppDelegate.m */,
+				C520C3501BCC37CF00AE9461 /* ViewController.h */,
+				C520C3511BCC37CF00AE9461 /* ViewController.m */,
+				C520C3531BCC37CF00AE9461 /* Main.storyboard */,
+				C520C3561BCC37CF00AE9461 /* Assets.xcassets */,
+				C520C3581BCC37CF00AE9461 /* LaunchScreen.storyboard */,
+				C520C35B1BCC37CF00AE9461 /* Info.plist */,
+				C520C34A1BCC37CF00AE9461 /* Supporting Files */,
+			);
+			path = JSONWithiOS;
+			sourceTree = "<group>";
+		};
+		C520C34A1BCC37CF00AE9461 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C520C34B1BCC37CF00AE9461 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C520C3631BCC37CF00AE9461 /* JSONWithiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C520C3641BCC37CF00AE9461 /* JSONWithiOSTests.m */,
+				C520C3661BCC37CF00AE9461 /* Info.plist */,
+			);
+			path = JSONWithiOSTests;
+			sourceTree = "<group>";
+		};
+		C520C36E1BCC37CF00AE9461 /* JSONWithiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C520C36F1BCC37CF00AE9461 /* JSONWithiOSUITests.m */,
+				C520C3711BCC37CF00AE9461 /* Info.plist */,
+			);
+			path = JSONWithiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C520C3461BCC37CF00AE9461 /* JSONWithiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C520C3741BCC37CF00AE9461 /* Build configuration list for PBXNativeTarget "JSONWithiOS" */;
+			buildPhases = (
+				C520C3431BCC37CF00AE9461 /* Sources */,
+				C520C3441BCC37CF00AE9461 /* Frameworks */,
+				C520C3451BCC37CF00AE9461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONWithiOS;
+			productName = JSONWithiOS;
+			productReference = C520C3471BCC37CF00AE9461 /* JSONWithiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C520C35F1BCC37CF00AE9461 /* JSONWithiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C520C3771BCC37CF00AE9461 /* Build configuration list for PBXNativeTarget "JSONWithiOSTests" */;
+			buildPhases = (
+				C520C35C1BCC37CF00AE9461 /* Sources */,
+				C520C35D1BCC37CF00AE9461 /* Frameworks */,
+				C520C35E1BCC37CF00AE9461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C520C3621BCC37CF00AE9461 /* PBXTargetDependency */,
+			);
+			name = JSONWithiOSTests;
+			productName = JSONWithiOSTests;
+			productReference = C520C3601BCC37CF00AE9461 /* JSONWithiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C520C36A1BCC37CF00AE9461 /* JSONWithiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C520C37A1BCC37CF00AE9461 /* Build configuration list for PBXNativeTarget "JSONWithiOSUITests" */;
+			buildPhases = (
+				C520C3671BCC37CF00AE9461 /* Sources */,
+				C520C3681BCC37CF00AE9461 /* Frameworks */,
+				C520C3691BCC37CF00AE9461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C520C36D1BCC37CF00AE9461 /* PBXTargetDependency */,
+			);
+			name = JSONWithiOSUITests;
+			productName = JSONWithiOSUITests;
+			productReference = C520C36B1BCC37CF00AE9461 /* JSONWithiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C520C33F1BCC37CF00AE9461 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = linx214;
+				TargetAttributes = {
+					C520C3461BCC37CF00AE9461 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = TN65K9B53W;
+					};
+					C520C35F1BCC37CF00AE9461 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = TN65K9B53W;
+						TestTargetID = C520C3461BCC37CF00AE9461;
+					};
+					C520C36A1BCC37CF00AE9461 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = TN65K9B53W;
+						TestTargetID = C520C3461BCC37CF00AE9461;
+					};
+				};
+			};
+			buildConfigurationList = C520C3421BCC37CF00AE9461 /* Build configuration list for PBXProject "JSONWithiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C520C33E1BCC37CF00AE9461;
+			productRefGroup = C520C3481BCC37CF00AE9461 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C520C3461BCC37CF00AE9461 /* JSONWithiOS */,
+				C520C35F1BCC37CF00AE9461 /* JSONWithiOSTests */,
+				C520C36A1BCC37CF00AE9461 /* JSONWithiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C520C3451BCC37CF00AE9461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C520C35A1BCC37CF00AE9461 /* LaunchScreen.storyboard in Resources */,
+				C520C3571BCC37CF00AE9461 /* Assets.xcassets in Resources */,
+				C520C37E1BCC37F300AE9461 /* jsonFormat.json in Resources */,
+				C520C3551BCC37CF00AE9461 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C520C35E1BCC37CF00AE9461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C520C3691BCC37CF00AE9461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C520C3431BCC37CF00AE9461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C520C3521BCC37CF00AE9461 /* ViewController.m in Sources */,
+				C520C34F1BCC37CF00AE9461 /* AppDelegate.m in Sources */,
+				C520C34C1BCC37CF00AE9461 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C520C35C1BCC37CF00AE9461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C520C3651BCC37CF00AE9461 /* JSONWithiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C520C3671BCC37CF00AE9461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C520C3701BCC37CF00AE9461 /* JSONWithiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C520C3621BCC37CF00AE9461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C520C3461BCC37CF00AE9461 /* JSONWithiOS */;
+			targetProxy = C520C3611BCC37CF00AE9461 /* PBXContainerItemProxy */;
+		};
+		C520C36D1BCC37CF00AE9461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C520C3461BCC37CF00AE9461 /* JSONWithiOS */;
+			targetProxy = C520C36C1BCC37CF00AE9461 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C520C3531BCC37CF00AE9461 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C520C3541BCC37CF00AE9461 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C520C3581BCC37CF00AE9461 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C520C3591BCC37CF00AE9461 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C520C3721BCC37CF00AE9461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C520C3731BCC37CF00AE9461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C520C3751BCC37CF00AE9461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSONWithiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linx214.JSONWithiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C520C3761BCC37CF00AE9461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSONWithiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linx214.JSONWithiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C520C3781BCC37CF00AE9461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSONWithiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linx214.JSONWithiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONWithiOS.app/JSONWithiOS";
+			};
+			name = Debug;
+		};
+		C520C3791BCC37CF00AE9461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSONWithiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linx214.JSONWithiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONWithiOS.app/JSONWithiOS";
+			};
+			name = Release;
+		};
+		C520C37B1BCC37CF00AE9461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSONWithiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linx214.JSONWithiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSONWithiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C520C37C1BCC37CF00AE9461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSONWithiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linx214.JSONWithiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSONWithiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C520C3421BCC37CF00AE9461 /* Build configuration list for PBXProject "JSONWithiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C520C3721BCC37CF00AE9461 /* Debug */,
+				C520C3731BCC37CF00AE9461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C520C3741BCC37CF00AE9461 /* Build configuration list for PBXNativeTarget "JSONWithiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C520C3751BCC37CF00AE9461 /* Debug */,
+				C520C3761BCC37CF00AE9461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C520C3771BCC37CF00AE9461 /* Build configuration list for PBXNativeTarget "JSONWithiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C520C3781BCC37CF00AE9461 /* Debug */,
+				C520C3791BCC37CF00AE9461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C520C37A1BCC37CF00AE9461 /* Build configuration list for PBXNativeTarget "JSONWithiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C520C37B1BCC37CF00AE9461 /* Debug */,
+				C520C37C1BCC37CF00AE9461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C520C33F1BCC37CF00AE9461 /* Project object */;
+}
