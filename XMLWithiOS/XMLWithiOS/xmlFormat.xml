@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<Root>
+    <user id="001">
+        <admin>
+            <name>fred</name>
+            <password>150150</password>
+            <age>22</age>
+        </admin>
+        <admin>
+            <name>yucai</name>
+            <password>123456</password>
+            <age>21</age>
+        </admin>
+        <admin>
+            <name>yuhan</name>
+            <password>123</password>
+            <age>22</age>
+        </admin>
+        <admin>
+            <name>meiy</name>
+            <password>235</password>
+            <age>26</age>
+        </admin>
+    </user> 
+</Root>
